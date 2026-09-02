@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b, c;
+    
+    cout << "Ingrese el cateto a: ";
+    cin >> a;
+
+    cout << "ingrese el cateto b: " ;
+    cin >> b;
+
+
+    c = sqrt((a * a) + (b * b));
+
+    cout << "la hipotenusa es : " << c << endl;
+
+    return 0; 
+}
