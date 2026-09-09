@@ -1,0 +1,15 @@
+Algoritmo Area_Perimetro_Rectangulo
+	Definir base, altura, area, perimetro  Como Real
+	
+	Escribir "Ingrese la base del rectangulo:"
+	Leer base
+	
+	Escribir "Ingrese la altura del rectangulo:"
+	Leer altura 
+	
+	area <- base * altura
+	perimetro <- 2 * (base+altura)
+	
+	Escribir "El un rectangulo :", area
+	Escribir "El precio total:", perimetro
+FinAlgoritmo
