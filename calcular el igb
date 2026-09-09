@@ -1,0 +1,13 @@
+Algoritmo Calcular_el_IGV
+	Definir precio,preciot, IGV Como Real
+	
+	Escribir "Ingrese el precio :"
+	Leer precio
+	
+	IGV <- precio * 0.18
+	Preciot <- precio + IGV
+	
+	Escribir "El IGV es:", IGV
+	Escribir "El precio total:", preciot
+	
+FinAlgoritmo
