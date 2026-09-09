@@ -1,0 +1,11 @@
+Algoritmo Area_Esfera
+	Definir radio, volumen Como Real
+    
+    Escribir "Ingrese el radio:"
+    Leer radio
+    
+    volumen <- 4/3 * (PI * a^2)
+    
+    Escribir "El volumen de una esfera es: ", volumen
+	
+FinAlgoritmo
