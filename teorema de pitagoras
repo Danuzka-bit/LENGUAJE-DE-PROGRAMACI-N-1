@@ -1,0 +1,14 @@
+Algoritmo Teorema_Pitagoras
+	Definir a, b, c Como Entero
+	
+	Escribir "Ingrese el cateto a:"
+	Leer a
+	
+	Escribir "Ingrese el cateto b:"
+	Leer b
+	
+	c <- raiz(a^2 + b^2)
+	
+	Escribir "La hipotenusa c es: ", c
+	
+FinAlgoritmo
