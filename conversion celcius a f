@@ -1,0 +1,11 @@
+Algoritmo ConvertirCelsiusAFahrenheit
+	// Definir las variables
+	Definir C, F Como Real
+	
+	Escribir "Ingresa la temperatura en grados Celsius:"
+	Leer C
+	
+	F <- (celsius * 9 / 5) + 32
+	
+	Escribir C, " °C equivalen a ", F, " °F"
+FinAlgoritmo
