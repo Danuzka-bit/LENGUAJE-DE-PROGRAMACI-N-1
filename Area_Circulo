@@ -1,0 +1,10 @@
+Algoritmo Area_Circulo
+    Definir radio, area Como Real
+    
+    Escribir "Ingrese el radio:"
+    Leer radio
+    
+    area <- PI * radio^2
+    
+    Escribir "El área del círculo es: ", area
+FinAlgoritmo
