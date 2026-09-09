@@ -1,0 +1,13 @@
+Algoritmo Area_Elipse
+	Definir a, b, area Como Real
+    
+    Escribir "Ingrese el semieje mayor a :"
+    Leer a
+	
+	Escribir "Ingrese el semieje menor b :"
+    Leer b
+    
+    area <- PI * a * b
+    
+    Escribir "El área del elipse es: ", area
+FinAlgoritmo
