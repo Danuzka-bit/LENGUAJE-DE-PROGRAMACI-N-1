@@ -1,0 +1,13 @@
+Algoritmo Conversion_de_tiempo
+	Definir segundos, minutos, horas Como Real
+    
+    Escribir "Ingrese la cantidad de segundos: "
+    Leer segundos
+    
+	minutos <- segundos / 60
+	horas <- segundos / 3600
+    
+    Escribir "En minutos: ", minutos
+	Escribir "En horas: ", horas 
+	
+FinAlgoritmo
